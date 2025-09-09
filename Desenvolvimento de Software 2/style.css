@@ -1,0 +1,163 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.6;
+  background: #fdfdfd;
+  color: #333;
+}
+
+/* Navbar */
+header {
+  background: #ffe4ec;
+  padding: 15px 30px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #444;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover {
+  color: #ff6fa5;
+}
+
+/* Início */
+.inicio {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: #fff0f5;
+}
+
+.inicio-texto h2 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.inicio-texto span {
+  color: #ff6fa5;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background: #ffb6c1;
+  color: #fff;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+
+.btn:hover {
+  background: #ff6fa5;
+}
+
+/* Seções */
+section {
+  padding: 80px 20px;
+  text-align: center;
+}
+
+/* Habilidades */
+.skills-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.skill-card {
+  background: #faf0f5;
+  padding: 20px;
+  border-radius: 12px;
+  width: 120px;
+  text-align: center;
+  transition: transform 0.3s;
+}
+
+.skill-card:hover {
+  transform: scale(1.1);
+}
+
+.skill-card i {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: #ff6fa5;
+}
+
+/* Projetos */
+.projetos-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.projeto-card {
+  background: #fffafc;
+  padding: 20px;
+  border-radius: 12px;
+  width: 250px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  transition: transform 0.3s;
+}
+
+.projeto-card:hover {
+  transform: translateY(-5px);
+}
+
+.projeto-card a {
+  display: inline-block;
+  margin-top: 10px;
+  text-decoration: none;
+  color: #ff6fa5;
+  font-weight: bold;
+}
+
+/* Contato */
+.social-links a {
+  margin: 0 10px;
+  font-size: 1.8rem;
+  color: #ff6fa5;
+  transition: color 0.3s;
+}
+
+.social-links a:hover {
+  color: #ff3e7a;
+}
+
+/* Footer */
+footer {
+  background: #ffe4ec;
+  padding: 15px;
+  text-align: center;
+  margin-top: 20px;
+}
